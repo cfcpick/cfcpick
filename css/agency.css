@@ -339,14 +339,24 @@ section h2.section-heading {
     color: black;
 }
 
-section h3.section-subheading {
-    margin-bottom: 75px;
-    text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
+section h3.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: white;
+    padding-top: 2%;
+    text-align: center;
+
 }
+
+ .border {
+    border-radius:100px;
+    border: 1px solid white;
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+ }
+ 
 
 @media(min-width:768px) {
     section {
