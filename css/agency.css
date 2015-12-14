@@ -70,12 +70,12 @@ h6 {
 }
 
 .btn-primary, .view {
-    border-color: #fed136;
+    border-color: red;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: red;
 }
 
 .btn-primary:hover,
@@ -84,9 +84,9 @@ h6 {
 .btn-primary.active,
 .view,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
-    color: #fff;
-    background-color: #fec503;
+    border-color: white;
+    color: red;
+    background-color: white;
 }
 
 .btn-primary:active,
@@ -367,6 +367,11 @@ section h3.section-heading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+#pick {
+    text-align: center;
+    margin: 0 auto;
 }
 
 #pick .pick-item {
@@ -972,10 +977,10 @@ li {
     border: none;
 }
 
-.project-info {
+.pick-info {
     padding: 20px 20px 50px 20px;
     background-color: rgb(216, 216, 216);
-    border-left: 15px solid #fed136;
+    border-left: 15px solid red;
     font-weight: bold;
 }
 
@@ -1060,3 +1065,23 @@ a.view:hover {
     color: white;
     background-color: #fec503;
 }   
+
+.weeks img{
+    padding: 10%;
+    width: 80%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.weeks div {
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 2.5%;
+}
+
+.test {
+    max-width: 65%;
+    max-height: 25%;
+    text-align: center;
+    margin: 0 auto;
+}
